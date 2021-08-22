@@ -4,7 +4,12 @@ An Example of running an express.js api using with @common-web utils. Leverage l
 
 **Update:**
 
-Migrated the old repo using rollup to leverage esbuild ([@common-web/esbuild](https://github.com/Jareechang/common-web/tree/master/packages/esbuild)).
+Migrated the old repo [common-web-modern-express](https://github.com/Jareechang/common-web-modern-express) using rollup to leverage esbuild ([@common-web/esbuild](https://github.com/Jareechang/common-web/tree/master/packages/esbuild)).
+
+
+**stats:**
+
+build with rollup was ~`200-400ms` while esbuild was `<50ms`.
 
 ### Tech
 
