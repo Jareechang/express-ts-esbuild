@@ -4,12 +4,6 @@ const esbuildConfig = require('@common-web/esbuild');
 
 console.time('esbuild build time');
 
-esbuild.build(esbuildConfig.getBaseConfig({})).then(() => {
-    esbuild.build(esbuildConfig.getBaseConfig({
-        override: {
-            allowOverwrite: true
-        }
-    }));
-});
+esbuild.build(esbuildConfig.getBaseConfig());
 
 console.timeEnd('esbuild build time');
